@@ -3,3 +3,115 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 1120px;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  border-radius: 28px;
+}
+#title span,
+#title-list span {
+  width: 1120px;
+  color: #e5245e;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#description {
+  margin: 40px 0;
+}
+
+#division {
+  width: 1120px;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 32px;
+  margin: 40px 0;
+}
+
+#description p {
+  font-style: italic;
+  text-align: center;
+  color: #333333;
+  margin-top: 10px;
+}
+
+#title-list {
+  margin: 64px 0;
+}
+
+h2,
+h3 {
+  margin: 10px 0;
+  color: #1b1b1b;
+}
+
+#title-list p {
+  color: #333333;
+}
+
+ol li::marker {
+  font-weight: bold;
+  color: #000;
+}
+
+.list-description p {
+  color: #333333;
+}
+
+.list-description img {
+  margin-top: 40px;
+}
+
+#description-list p {
+  font-weight: bold;
+}
+
+#description-list ul li {
+  margin-left: 20px;
+  font-weight: bold;
+  color: #0c51a7;
+}
+ul li::marker {
+  font-size: 0.9em;
+}
+
+#description-Yongdusan {
+  margin-left: 20px;
+  font-weight: bold;
+}
+#description-Yongdusan ul,
+#description-list ul {
+  list-style: disc;
+  color: black;
+  padding-left: 20px;
+}
+#description-Yongdusan ul li:nth-child(1) span {
+  color: #591b98;
+}
+
+#description-Yongdusan ul li:nth-child(2) span {
+  color: #e5245e;
+}
+
+#description-Yongdusan ul li:nth-child(3) span {
+  color: #e95e10;
+}
+
+footer {
+  text-align: center;
+  color: #333333;
+}
+
+footer p {
+  margin: 40px;
+}
+
+footer img {
+  vertical-align: middle;
+  color: #000;
+}
